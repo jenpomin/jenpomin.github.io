@@ -89,6 +89,7 @@ body {
         text-align: right;
     }
 
+
     .produk:hover .listProduk {
         z-index: 1;
         display: block;
@@ -203,95 +204,8 @@ body {
         margin-left: -6px;
     }
 
-    @keyframes geser {
-        0% {
-            margin-left: 0;
-        }
-
-
-        0% {
-            margin-left: 0;
-        }
-
-        33% {
-            margin-left: 0;
-        }
-
-        35% {
-            margin-left: -100%;
-        }
-
-        50% {
-            margin-left: -100%;
-        }
-
-        80% {
-            margin-left: -100%;
-        }
-
-        83% {
-            margin-left: 0;
-        }
-
-        100% {
-            margin-left: 0;
-        }
-    }
-
-    @keyframes geser {
-        0% {
-            margin-left: 0;
-        }
-
-
-        0% {
-            margin-left: 0;
-        }
-
-        33% {
-            margin-left: 0;
-        }
-
-        35% {
-            margin-left: -100%;
-        }
-
-        50% {
-            margin-left: -100%;
-        }
-
-        80% {
-            margin-left: -100%;
-        }
-
-        83% {
-            margin-left: 0;
-        }
-
-        100% {
-            margin-left: 0;
-        }
-
-    }
-
     .banner {
-        order: 1;
-        margin-top: -10px;
-        margin-left: 70px;
-        width: 300px;
-        height: auto;
-    }
-
-    .banner img {
-        width: 500px;
-        height: auto;
-        margin-bottom: 40px;
-        filter: drop-shadow(-.3px 0 1px white);
-    }
-
-    .banner p {
         display: none;
-
     }
 
     .galeri {
@@ -311,8 +225,8 @@ body {
 
     .subGaleri1 {
         order: 3;
-        flex: 0 0 60%;
-        margin-left: 20px;
+        flex: 0 0 65%;
+        margin: 0 auto;
     }
 
     .subGaleri1 h2 {
@@ -323,14 +237,14 @@ body {
 
     .subGaleri1 p {
         line-height: 30px;
-        text-align: justify;
+        text-align: center;
         color: white;
     }
 
     .subGaleri2 {
         order: 2;
-        flex: 0 37%;
-        margin: 40px 10px 0 0;
+        flex: 0 0 65%;
+        margin: 0 auto 30px;
     }
 
     .subGaleri2 h3 {
@@ -341,23 +255,15 @@ body {
 
     .subGaleri2 p {
         color: white;
-        text-align: justify;
+        text-align: center;
         line-height: 30px;
     }
 
     .subGaleri3 {
         order: 3;
-        flex: 3 0 0;
+        flex: 3 0 60%;
         margin: 0 auto;
     }
-
-    .subGaleri3 p {
-        margin-top: 20px;
-        color: white;
-        line-height: 30px;
-    }
-
-
 
     /*slideshow*/
 
@@ -446,7 +352,6 @@ body {
         justify-content: center;
         flex-wrap: wrap;
         width: 90%;
-        /* padding: 20px 30px 20px; */
         margin: 0 auto;
     }
 
@@ -467,9 +372,26 @@ body {
         display: flex;
         width: 300px;
         height: 300px;
-        margin: 30px auto;
+        margin: 30px 10px 30px 0;
         overflow: hidden;
         box-shadow: 0 0 1px 1px rgba(126, 124, 124, 0.6);
+    }
+
+    .bar1,
+    .bar2,
+    .bar3,
+    .bar4 {
+        border-radius: 20px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .navigation1,
+    .navigation2,
+    .navigation3,
+    .navigation4 {
+        width: 160px;
+        height: 6px;
     }
 
     /* backlight */
@@ -482,9 +404,7 @@ body {
     .backlight p {
         width: 300px;
         text-align: center;
-        margin-top: -20px;
-        margin-left: 30px;
-        margin-bottom: 70px;
+        margin: -20px auto 0;
         color: rgb(0, 0, 0);
     }
 
@@ -500,15 +420,10 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
     }
 
     .bar1 {
         bottom: 10px;
-        width: 60px;
-        height: 60px;
-        clip-path: circle(5px);
         transition: 1s;
         margin: 4px;
         background-color: #fccb47;
@@ -572,9 +487,7 @@ body {
         width: 300px;
         color: rgb(0, 0, 0);
         text-align: center;
-        margin-left: 30px;
-        margin-top: -20px;
-        margin-bottom: 30px;
+        margin: -20px auto 30px;
     }
 
     .navigation2 {
@@ -584,15 +497,10 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
     }
 
     .bar2 {
         bottom: 10px;
-        width: 60px;
-        height: 60px;
-        clip-path: circle(5px);
         transition: 1s;
         margin: 4px;
         background-color: #ebc034;
@@ -655,8 +563,7 @@ body {
     .spanduk_ p {
         width: 300px;
         text-align: center;
-        margin-top: -20px;
-        margin-left: 30px;
+        margin: -20px auto 0;
         color: rgb(0, 0, 0);
     }
 
@@ -667,15 +574,10 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
     }
 
     .bar3 {
         bottom: 10px;
-        width: 60px;
-        height: 60px;
-        clip-path: circle(5px);
         transition: 1s;
         margin: 4px;
         background-color: #df830b;
@@ -691,7 +593,6 @@ body {
         display: flex;
         width: 100%;
         transition: .4s;
-        /* overflow: hidden; */
     }
 
     .imgSlide img {
@@ -737,8 +638,7 @@ body {
     .lainnya p {
         width: 300px;
         text-align: center;
-        margin-top: -20px;
-        margin-left: 30px;
+        margin: -20px auto 40px;
         color: rgb(0, 0, 0);
     }
 
@@ -749,15 +649,12 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar4 {
         bottom: 10px;
-        width: 60px;
-        height: 60px;
-        clip-path: circle(5px);
         transition: 1s;
         margin: 4px;
         background-color: #fccb47;
@@ -891,11 +788,10 @@ body {
         height: 99.3vh;
     }
 
-
     .spanduk h1 {
         z-index: 1;
         font-size: 1vw;
-        margin-top: 490px;
+        margin-top: 73vh;
         padding: 15px 50px 17px;
         line-height: 1.3rem;
         text-align: center;
@@ -903,14 +799,6 @@ body {
         color: rgb(255, 255, 255);
         background-color: #df830b;
         opacity: .8;
-        animation: filterku 1s infinite ease-in;
-    }
-
-    .banner img {
-        width: 500px;
-        height: auto;
-        margin-bottom: 40px;
-        filter: drop-shadow(-.3px 0 1px white);
     }
 
     .banner p {
@@ -985,8 +873,6 @@ body {
         margin-left: -100%;
     }
 
-
-
     .produkMenu {
         display: flex;
         justify-content: center;
@@ -1039,6 +925,23 @@ body {
         font-size: 1.4em;
     }
 
+    .bar1,
+    .bar2,
+    .bar3,
+    .bar4 {
+        border-radius: 20px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .navigation1,
+    .navigation2,
+    .navigation3,
+    .navigation4 {
+        width: 160px;
+        height: 6px;
+    }
+
     .navigation1 {
         display: flex;
         justify-content: space-between;
@@ -1046,20 +949,19 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar1 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
         background-color: #fccb47;
     }
-
 
     .bar1:hover {
         background-color: #ff0000;
@@ -1130,15 +1032,15 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar2 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
         background-color: #ebc034;
@@ -1213,15 +1115,15 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar3 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
         background-color: #df830b;
@@ -1295,15 +1197,15 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar4 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
         background-color: #fccb47;
@@ -1568,7 +1470,6 @@ body {
 
     .subGaleri2 h3 {
         font-size: 30px;
-        margin-top: -30px;
         margin-bottom: 10px;
         color: rgb(255, 255, 255);
     }
@@ -1577,7 +1478,7 @@ body {
         color: white;
         text-align: center;
         line-height: 30px;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
 
     .produkMenu {
@@ -1620,6 +1521,23 @@ body {
         width: 80vw;
     }
 
+    .bar1,
+    .bar2,
+    .bar3,
+    .bar4 {
+        border-radius: 20px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .navigation1,
+    .navigation2,
+    .navigation3,
+    .navigation4 {
+        width: 160px;
+        height: 6px;
+    }
+
     /* backlight */
 
     .backlight h1 {
@@ -1644,15 +1562,15 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar1 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
     }
@@ -1716,15 +1634,15 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar2 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
     }
@@ -1794,15 +1712,15 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar3 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
     }
@@ -1870,15 +1788,15 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar4 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
     }
@@ -2182,42 +2100,6 @@ body {
         }
     }
 
-    @keyframes geser {
-        0% {
-            margin-left: 0;
-        }
-
-
-        0% {
-            margin-left: 0;
-        }
-
-        33% {
-            margin-left: 0;
-        }
-
-        35% {
-            margin-left: -100%;
-        }
-
-        50% {
-            margin-left: -100%;
-        }
-
-        80% {
-            margin-left: -100%;
-        }
-
-        83% {
-            margin-left: 0;
-        }
-
-        100% {
-            margin-left: 0;
-        }
-
-    }
-
     .galeri {
         position: relative;
         display: flex;
@@ -2258,7 +2140,7 @@ body {
 
     .subGaleri2 h3 {
         font-size: 25px;
-        margin-top: -30px;
+        margin-top: -10px;
         margin-bottom: 10px;
         color: rgb(255, 255, 255);
     }
@@ -2267,7 +2149,7 @@ body {
         color: white;
         text-align: center;
         line-height: 30px;
-        margin-bottom: 40px;
+        margin-bottom: 5px;
     }
 
     .subGaleri3 {
@@ -2275,13 +2157,6 @@ body {
         flex: 3 0 0;
         margin: 0 auto;
     }
-
-    .subGaleri3 p {
-        margin-top: 20px;
-        color: white;
-        line-height: 30px;
-    }
-
 
     /*slideshow*/
 
@@ -2406,6 +2281,23 @@ body {
         width: 80vw;
     }
 
+    .bar1,
+    .bar2,
+    .bar3,
+    .bar4 {
+        border-radius: 20px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .navigation1,
+    .navigation2,
+    .navigation3,
+    .navigation4 {
+        width: 160px;
+        height: 6px;
+    }
+
     /* backlight */
 
     .backlight p {
@@ -2427,17 +2319,8 @@ body {
         transform: translateX(-50%);
         bottom: 45px;
         width: 160px;
-        height: 20px;
     }
 
-    .bar1 {
-        bottom: 10px;
-        width: 60px;
-        height: 60px;
-        clip-path: circle(5px);
-        transition: 1s;
-        margin: 4px;
-    }
 
     .bar1:hover {
         cursor: pointer;
@@ -2497,15 +2380,15 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar2 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
     }
@@ -2575,15 +2458,15 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar3 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
         background-color: #fcfcfc;
@@ -2654,15 +2537,15 @@ body {
         left: 50%;
         transform: translateX(-50%);
         bottom: 45px;
-        width: 160px;
-        height: 20px;
+        /* width: 160px;
+        height: 20px; */
     }
 
     .bar4 {
         bottom: 10px;
-        width: 60px;
+        /* width: 60px;
         height: 60px;
-        clip-path: circle(5px);
+        clip-path: circle(5px); */
         transition: 1s;
         margin: 4px;
     }
@@ -2928,12 +2811,6 @@ body {
         margin: 40px auto 0;
     }
 
-    .subGaleri3 p {
-        color: white;
-        line-height: 30px;
-        margin: 40px auto 40px;
-    }
-
     .gambarSpanduk img {
         height: unset;
     }
@@ -2977,14 +2854,18 @@ body {
     .bar2,
     .bar3,
     .bar4 {
-        clip-path: circle(7px);
+        /* clip-path: circle(6px); */
+        border-radius: 20px;
+        width: 15px;
+        height: 15px;
     }
 
     .navigation1,
     .navigation2,
     .navigation3,
     .navigation4 {
-        width: 230px;
+        width: 160px;
+        height: 6px;
     }
 
     /* menuDropdownResponsive */
@@ -3525,12 +3406,6 @@ body {
         margin: 40px auto 0;
     }
 
-    .subGaleri3 p {
-        color: white;
-        line-height: 30px;
-        margin: 40px auto 40px;
-    }
-
     .gambarSpanduk img {
         height: unset;
     }
@@ -3564,9 +3439,10 @@ body {
     .bar2,
     .bar3,
     .bar4 {
-        clip-path: circle(6px);
-        width: 60px;
-        height: 60px;
+        /* clip-path: circle(6px); */
+        border-radius: 20px;
+        width: 15px;
+        height: 15px;
     }
 
     .navigation1,
@@ -3574,7 +3450,7 @@ body {
     .navigation3,
     .navigation4 {
         width: 160px;
-        height: 20px;
+        height: 6px;
     }
 
     #r1A:checked~.sliding1 {
@@ -3949,11 +3825,6 @@ body {
         margin: 40px auto 0;
     }
 
-    .subGaleri3 p {
-        font-size: .8rem;
-        margin-top: 20px;
-    }
-
     .gambarSpanduk img {
         height: unset;
     }
@@ -4001,19 +3872,6 @@ body {
         margin: 30px auto 30px;
     }
 
-    .bar1,
-    .bar2,
-    .bar3,
-    .bar4 {
-        clip-path: circle(6px);
-    }
-
-    .navigation1,
-    .navigation2,
-    .navigation3,
-    .navigation4 {
-        width: 160px;
-    }
 
     .backlight h1,
     .sticker h1,
